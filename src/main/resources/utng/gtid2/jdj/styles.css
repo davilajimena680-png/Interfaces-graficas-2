@@ -1,0 +1,9 @@
+.white-colors{
+    -fx-background-color: #fff;
+}
+.transparent{
+    -fx-background-color: rgba(8,0,8,0);
+}
+.search-bart {
+    -fx-border-width: 1;
+    -fx-border-color: #686868;}

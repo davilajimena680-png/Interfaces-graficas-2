@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="840.0" prefWidth="1306.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="200.0" spacing="20.0" styleClass="white-colors" stylesheets="@styles.css" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets left="30.0" right="30.0" />
+         </padding>
+         <children>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/7612954.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="71.0" fitWidth="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/Youtube-Logo-2017-1536x864.png" />
+               </image>
+            </ImageView>
+            <Pane prefHeight="200.0" prefWidth="200.0" />
+            <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="40.0" prefWidth="460.0" styleClass="search-bart" stylesheets="@styles.css">
+               <children>
+                  <TextField prefHeight="26.0" prefWidth="406.0" promptText="Search" styleClass="transparent" stylesheets="@styles.css" />
+                  <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Imagenes/loupe-premium-icon-sign-symbol-free-vector.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <Pane prefHeight="200.0" prefWidth="200.0" />
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/videollamada.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/menu.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/notificaciones.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/usuario.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <ScrollPane prefHeight="805.0" prefWidth="280.0" BorderPane.alignment="CENTER">
+         <content>
+            <VBox prefHeight="769.0" prefWidth="260.0" styleClass="white-colors" stylesheets="@styles.css">
+               <children>
+                  <VBox prefHeight="150.0" prefWidth="260.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Imagenes/casa.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="150.0" text="Home">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="35.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Imagenes/inicio.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="150.0" text="Subcription">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Imagenes/treding.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="150.0" text="Trending">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets top="40.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <Separator prefWidth="200.0" />
+                  <VBox prefHeight="252.0" prefWidth="260.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="38.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Imagenes/library.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="150.0" text="Library">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Imagenes/historial.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="150.0" text="History">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="260.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Imagenes/tus.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="150.0" text="Your videos">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Imagenes/verdespues.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="150.0" text="Watch later">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="260.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="42.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Imagenes/playlist.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="150.0" text="Playlists">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+                  <Separator prefWidth="200.0" />
+                  <VBox prefHeight="252.0" prefWidth="260.0">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="34.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Imagenes/premium.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="150.0" text="Youtube Premium">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="25.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Imagenes/gaming.png" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="150.0" text="Gaming">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="260.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Imagenes/settings.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="150.0" text="Settings">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="43.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Imagenes/bandera.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="150.0" text="Report history">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="50.0" prefWidth="260.0" spacing="20.0">
+                           <children>
+                              <ImageView fitHeight="41.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Imagenes/bandera.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Label prefHeight="38.0" prefWidth="150.0" text="Help">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </left>
+</BorderPane>
